@@ -1,0 +1,31 @@
+{
+  "name": "transformer.ip-address-to-buffer",
+  "version": "0.0.1",
+  "description": "transformer conversion: ip-address to buffer",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "dat-transformer": "~0.1.5",
+    "transformer.buffer": "0.0.1",
+    "transformer.ip-address": "0.0.1",
+    "ip": "~0.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.ip-address-to-buffer.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.ip-address-to-buffer/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.ip-address-to-buffer"
+}
