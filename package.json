@@ -1,6 +1,6 @@
 {
   "name": "transformer.ip-address-to-buffer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: ip-address to buffer",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,10 +12,11 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "dat-transformer": "~0.1.5",
+    "ip": "~0.3.0",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.buffer": "0.0.1",
-    "transformer.ip-address": "0.0.1",
-    "ip": "~0.3.0"
+    "transformer.ip-address": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
